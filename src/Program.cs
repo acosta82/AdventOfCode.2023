@@ -34,6 +34,9 @@ namespace Advent._2023.Console
                 case "3":
                     calendarDay = new Day3();
                     break;
+                case "4":
+                    calendarDay = new Day4();
+                    break;
                 default:
                     return;
             }
